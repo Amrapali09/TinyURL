@@ -1,0 +1,9 @@
+Soure code for building short URL from long URL.
+
+Setup and installation procedure:
+
+1. Download a project from github.
+2. Run the sql given in sql forlder on our phpMyAdmin mysql server.
+3. Change the core/config.php file to set a connection to your database.
+4. Change a 'SHORTURL_PREFIX' variable in core/config.php to connect to url accesible url.
+5. Run the application.

@@ -1,0 +1,11 @@
+CREATE TABLE IF NOT EXISTS linkshortner (
+  id INTEGER UNSIGNED NOT NULL AUTO_INCREMENT,
+  longurl VARCHAR(255) NOT NULL,
+  shortcode VARBINARY(6) NOT NULL,
+  createdat DATETIME NOT NULL,
+  counter INTEGER UNSIGNED NOT NULL DEFAULT '0',
+
+  PRIMARY KEY (id),
+  KEY shortcode (shortcode)
+)
+ENGINE=InnoDB;
